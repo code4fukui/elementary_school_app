@@ -1,0 +1,34 @@
+main {
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template:
+    'display'
+    'input'
+}
+
+.titlebox {
+    grid-area: display;
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul {
+    grid-area: input;
+    width: 100%;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.square {
+    width: 90px;
+    height: 90px;
+    border: solid 1px #777777;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

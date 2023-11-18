@@ -1,0 +1,45 @@
+html, body { height: 100%; width: 100%; }
+
+main {
+    display: grid;
+    width: 100%;
+    height: 100%;
+    grid-template-areas:
+    'tytle'
+    'game'
+    'music';
+    grid-auto-rows: 10% 45% 45%;
+}
+
+.titlebox {
+    grid-area: tytle;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#game {
+    grid-area: game;
+    width: 90%;
+    margin: 10px auto;
+    border: solid 1px rgb(39, 230, 97);
+    grid-template-areas:
+    'info'
+    'buttun';
+    grid-auto-rows: 90% 10%;
+}
+
+#music {
+    grid-area: music;
+    width: 90%;
+    margin: 10px auto;
+    border: solid 1px #121312;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.infomation {
+    grid-area: info;
+}
