@@ -5,7 +5,7 @@
 ## デモ
 
 本アプリケーションはGitHub Pagesでホストされています:
-**https://code4fukui.github.io/elementary_school_app/**
+**https://github.com/code4fukui/elementary_school_app
 
 ## 機能
 

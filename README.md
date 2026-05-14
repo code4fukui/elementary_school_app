@@ -7,7 +7,7 @@ A simple web application for elementary school students. It features a home scre
 ## Demo
 
 The application is hosted on GitHub Pages:
-**https://code4fukui.github.io/elementary_school_app/**
+**https://github.com/code4fukui/elementary_school_app
 
 ## Features
 
